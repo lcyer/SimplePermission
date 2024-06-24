@@ -45,12 +45,14 @@ isPermissionResult = permissionResult.isGranted
 
 isGranted function lets you know right away if the permission is granted or not.
 ```kotlin
-SimplePermission.builder()
+val isGranted = SimplePermission.builder()
     .denyTitle("Permission Denied")
     .denyMessage("please go to Permissions in the app settings and allow it.")
     .permissions(Manifest.permission.CAMERA)
     .create()
     .isGranted()
+
+isPermissionResult = isGranted
 ```
 
 ## Next Planning?
