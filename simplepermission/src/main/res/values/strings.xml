@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">permission</string>
+
+    <string name="dialog_close">close</string>
+    <string name="dialog_ok">ok</string>
+    <string name="dialog_move_setting">setting</string>
+
+    <string name="dialog_title">dialog title</string>
+    <string name="dialog_message">dialog message</string>
+</resources>
